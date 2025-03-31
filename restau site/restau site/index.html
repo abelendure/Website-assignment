@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Endure's Kitchen | Fine Dining</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container header-content">
+            <a href="#" class="logo">Endure's<span>Kitchen</span></a>
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#menu">Menu</a></li>
+                </ul>
+            </nav>
+            <button class="cart-btn" id="cart-btn">
+                Cart <span class="cart-count" id="cart-count">0</span>
+            </button>
+        </div>
+    </header>
+    
+    <section class="hero">
+        <div class="container hero-content">
+            <h1>Exquisite Dining Experience</h1>
+            <p>Discover our carefully crafted menu featuring the finest ingredients and culinary expertise</p>
+            <a href="#menu" class="btn">View Menu</a>
+        </div>
+    </section>
+    
+    <section id="menu">
+        <div class="container">
+            <div class="section-title">
+                <h2>Our Menu</h2>
+            </div>
+            
+            <div class="menu-container">
+               
+                <div class="menu-item">
+                    <div class="menu-item-img">
+                        <img src="https://images.unsplash.com/photo-1559847844-5315695dadae?ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80" alt="Bruschetta">
+                    </div>
+                    <div class="menu-item-content">
+                        <div class="menu-item-title">
+                            <h3>Bruschetta</h3>
+                            <span class="menu-item-price">600.00MZN</span>
+                        </div>
+                        <p class="menu-item-desc">Toasted bread topped with tomatoes, garlic, and fresh basil</p>
+                        <button class="add-to-cart" data-id="1" data-name="Bruschetta" data-price="600.00">Add to Cart</button>
+                    </div>
+                </div>
+                
+                <div class="menu-item">
+                    <div class="menu-item-img">
+                        <img src="https://images.unsplash.com/photo-1603105037880-880cd4edfb0d?ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80" alt="Calamari">
+                    </div>
+                    <div class="menu-item-content">
+                        <div class="menu-item-title">
+                            <h3>Calamari</h3>
+                            <span class="menu-item-price">750.00MZN</span>
+                        </div>
+                        <p class="menu-item-desc">Crispy fried squid served with marinara sauce</p>
+                        <button class="add-to-cart" data-id="2" data-name="Calamari" data-price="750.00">Add to Cart</button>
+                    </div>
+                </div>
+                
+              
+                <div class="menu-item">
+                    <div class="menu-item-img">
+                        <img src="https://images.unsplash.com/photo-1544025162-d76694265947?ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80" alt="Filet Mignon">
+                    </div>
+                    <div class="menu-item-content">
+                        <div class="menu-item-title">
+                            <h3>Filet Mignon</h3>
+                            <span class="menu-item-price">2100MZN</span>
+                        </div>
+                        <p class="menu-item-desc">226g tender beef filet with roasted vegetables and mashed potatoes</p>
+                        <button class="add-to-cart" data-id="3" data-name="Filet Mignon" data-price="2100.00">Add to Cart</button>
+                    </div>
+                </div>
+                
+                <div class="menu-item">
+                    <div class="menu-item-img">
+                        <img src="https://images.unsplash.com/photo-1565557623262-b51c2513a641?ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80" alt="Salmon">
+                    </div>
+                    <div class="menu-item-content">
+                        <div class="menu-item-title">
+                            <h3>Grilled Salmon</h3>
+                            <span class="menu-item-price">1600.00MZN</span>
+                        </div>
+                        <p class="menu-item-desc">Fresh Atlantic salmon with lemon butter sauce and seasonal vegetables</p>
+                        <button class="add-to-cart" data-id="4" data-name="Grilled Salmon" data-price="1600.00">Add to Cart</button>
+                    </div>
+                </div>
+                
+                <div class="menu-item">
+                    <div class="menu-item-img">
+                        <img src="https://images.unsplash.com/photo-1563379926898-05f4575a45d8?ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80" alt="Pasta">
+                    </div>
+                    <div class="menu-item-content">
+                        <div class="menu-item-title">
+                            <h3>Truffle Pasta</h3>
+                            <span class="menu-item-price">1250.00MZN</span>
+                        </div>
+                        <p class="menu-item-desc">Homemade fettuccine with wild mushrooms and truffle cream sauce</p>
+                        <button class="add-to-cart" data-id="5" data-name="Truffle Pasta" data-price="1250.00">Add to Cart</button>
+                    </div>
+                </div>
+                
+                <div class="menu-item">
+                    <div class="menu-item-img">
+                        <img src="https://images.unsplash.com/photo-1551504734-5ee1c4a1479b?ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80" alt="Risotto">
+                    </div>
+                    <div class="menu-item-content">
+                        <div class="menu-item-title">
+                            <h3>Mushroom Risotto</h3>
+                            <span class="menu-item-price">950.00MZN</span>
+                        </div>
+                        <p class="menu-item-desc">Creamy Arborio rice with wild mushrooms and Parmesan cheese</p>
+                        <button class="add-to-cart" data-id="6" data-name="Mushroom Risotto" data-price="950.00">Add to Cart</button>
+                    </div>
+                </div>
+                
+               
+                <div class="menu-item">
+                    <div class="menu-item-img">
+                        <img src="https://images.unsplash.com/photo-1563805042-7684c019e1cb?ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80" alt="Tiramisu">
+                    </div>
+                    <div class="menu-item-content">
+                        <div class="menu-item-title">
+                            <h3>Tiramisu</h3>
+                            <span class="menu-item-price">575.00MZN</span>
+                        </div>
+                        <p class="menu-item-desc">Classic Italian dessert with layers of coffee-soaked ladyfingers</p>
+                        <button class="add-to-cart" data-id="7" data-name="Tiramisu" data-price="575.00">Add to Cart</button>
+                    </div>
+                </div>
+                
+                <div class="menu-item">
+                    <div class="menu-item-img">
+                        <img src="C:\Users\langa\OneDrive\Desktop\restau site\restau site\american-heritage-chocolate-PFG4JCWomIM-unsplash.jpg"                     alt="Chocolate Lava Cake">
+                    </div>
+                    <div class="menu-item-content">
+                        <div class="menu-item-title">
+                            <h3>Chocolate Lava Cake</h3>
+                            <span class="menu-item-price">350.00MZN</span>
+                        </div>
+                        <p class="menu-item-desc">Warm chocolate cake with a molten center, served with vanilla ice cream</p>
+                        <button class="add-to-cart" data-id="8" data-name="Chocolate Lava Cake" data-price="350.00">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    
+    <div class="cart-modal" id="cart-modal">
+        <div class="cart-header">
+            <h3>Your Order</h3>
+            <button class="close-cart" id="close-cart">&times;</button>
+        </div>
+        <div class="cart-items" id="cart-items">
+          
+            <p class="empty-cart-message">Your cart is empty</p>
+        </div>
+        <div class="cart-total">
+            Total: $<span id="cart-total">0.00</span>
+        </div>
+        <button class="checkout-btn" id="checkout-btn">Proceed to Checkout</button>
+    </div>
+    
+    <div class="overlay" id="overlay"></div>
+    
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Endure's Kitchen. All rights reserved.</p>
+        </div>
+    </footer>
+    
+    <script src="script.js"></script>
+</body>
+</html>
